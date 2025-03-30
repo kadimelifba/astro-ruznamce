@@ -1,16 +1,17 @@
 {
-  "name": "astro-paper",
+  "name": "ruznamce",
   "type": "module",
   "version": "5.2.0",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
-    "preview": "astro preview",
-    "sync": "astro sync",
+    "çat": "astro dev",
+    "koş": "astro dev",
+    "kur": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
+    "bak": "astro preview",
+    "ula": "astro sync",
     "astro": "astro",
-    "format:check": "prettier --check .",
-    "format": "prettier --write .",
-    "lint": "eslint ."
+    "düz:ara": "prettier --check . --plugin=prettier-plugin-astro",
+    "düz": "prettier --write . --plugin=prettier-plugin-astro",
+    "ele": "eslint ."
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.11",

@@ -10,28 +10,28 @@ import { SITE } from "@/config";
 
 export const SOCIALS = [
   {
+    name: "ePostagâh",
+    href: "https://ihbar.kadimelifba.com/",
+    linkTitle: `${SITE.title} ihbar hattı`,
+    icon: IconMail,
+  },
+  {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: ` ${SITE.title} on Github`,
+    href: "https://github.com/kadimelifba",
+    linkTitle: ` ${SITE.title} - Github`,
     icon: IconGitHub,
   },
   {
     name: "X",
-    href: "https://x.com/username",
-    linkTitle: `${SITE.title} on X`,
+    href: "https://x.com/KadimElifba",
+    linkTitle: `${SITE.title} - X`,
     icon: IconBrandX,
   },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
-    linkTitle: `${SITE.title} on LinkedIn`,
+    name: "YouTube",
+    href: "https://www.youtube.com/@kadimelifba",
+    linkTitle: `${SITE.title} - YouTube`,
     icon: IconLinkedin,
-  },
-  {
-    name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
-    icon: IconMail,
   },
 ] as const;
 
