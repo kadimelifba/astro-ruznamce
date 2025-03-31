@@ -14,7 +14,18 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
+    remarkPlugins: [
+      [remarkToc, { heading: "Fihrist" }],
+      [
+        remarkCollapse,
+        {
+          test: "Fihrist",
+          summary: (metin: string) => {
+            return metin + " muhtevasını âşikâr et";
+          },
+        },
+      ],
+    ],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
       themes: { light: "min-light", dark: "night-owl" },
