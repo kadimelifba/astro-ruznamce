@@ -98,7 +98,7 @@ VS Code bir sak tertipçisidir. Yani bu nerm-efzârı kullanarak ferman yazarız
 
 ### Cloudflare Wrangler Kurma
 
-Node.js ve NPM kurmuşturk Cloudflare Wrangle nerm-efzârı NPM ile kurulur ve Node.js vâsıtasıyla kullanılır. Bu nerm-efzârı her ibdâ ettiğimiz tarhın içine kurarız ve mevzubahis tarhı neşretmek için kullanırız. Âtî bablarda, tarh ibdâsına geldiğimizde Wrangler'i nasıl kuracağımızı ve nasıl kullanacağımızı göreceğiz.
+Node.js ve NPM kurmuştuk.. Cloudflare Wrangler nerm-efzârı NPM ile kurulur ve Node.js vâsıtasıyla kullanılır. Bu nerm-efzârı her ibdâ ettiğimiz tarhın içine kurarız ve mevzubahis tarhı neşretmek için kullanırız. Âtî bablarda, tarh ibdâsına geldiğimizde Wrangler'i nasıl kuracağımızı ve nasıl kullanacağımızı göreceğiz.
 
 ## İkinci Fasıl: Hizmetler için Hesapların Açılması:
 
